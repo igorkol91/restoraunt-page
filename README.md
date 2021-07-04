@@ -10,7 +10,7 @@
 
 ## Live Demo
 
-[LiveLink](https://igorkol91.github.io/restoraunt-page/)
+[LiveLink](https://stoic-ramanujan-9dbef3.netlify.app/)
 
 
 ### Prerequisites
