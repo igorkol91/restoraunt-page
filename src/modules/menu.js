@@ -1,6 +1,6 @@
 const mainContainer = document.getElementById('id');
 
-function loadMenuPage() {
+const loadMenuPage = () => {
   const section = document.createElement('section');
   section.className = 'menu-page';
   const sectionH1 = document.createElement('h1');
@@ -62,6 +62,6 @@ function loadMenuPage() {
   article3.appendChild(article3img);
   section.appendChild(article3);
   mainContainer.appendChild(section);
-}
+};
 
 export default loadMenuPage;

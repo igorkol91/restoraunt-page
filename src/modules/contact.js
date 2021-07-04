@@ -1,6 +1,6 @@
 const mainContainer = document.getElementById('id');
 
-function loadContactPage() {
+const loadContactPage = () => {
   const section = document.createElement('section');
   section.className = 'menu-page';
   const sectionH1 = document.createElement('h1');
@@ -46,7 +46,7 @@ function loadContactPage() {
   const article3 = document.createElement('article');
   article3.className = 'menu-page-article';
   const article3Title = document.createElement('h4');
-  article2Title.innerHTML = 'Head waiter';
+  article3Title.innerHTML = 'Head waiter';
   article3.appendChild(article3Title);
   const article3P = document.createElement('p');
   article3P.innerHTML = 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem a est';
@@ -59,6 +59,6 @@ function loadContactPage() {
   article3.appendChild(article3img);
   section.appendChild(article3);
   mainContainer.appendChild(section);
-}
+};
 
 export default loadContactPage;

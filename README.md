@@ -17,6 +17,18 @@
 
 Vscode
 
+### Getting Started
+
+To get the local copy of the project up and running you will need to run the following commands on your terminal:
+
+$git clone https://github.com/igorkol91/restoraunt-page/tree/featured-branch
+
+To install all the available dependecies run $npm install
+
+To bundle and transpile the javascript code using webpack run npm run dev
+
+Now you can open up the index.html file located in the dist folder.
+
 ### Github Actions
 
 To make sure the linters' checks using Github Actions work properly, you should follow the next steps:

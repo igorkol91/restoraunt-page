@@ -1,6 +1,6 @@
 const mainContainer = document.getElementById('id');
 // Create the home page
-function loadHomePage() {
+const loadHomePage = () => {
   const section = document.createElement('section');
   section.className = 'menu-page';
   const sectionHeader = document.createElement('h1');
@@ -43,6 +43,6 @@ function loadHomePage() {
 
   // append on the main container
   mainContainer.appendChild(section);
-}
+};
 
 export default loadHomePage;

@@ -13,14 +13,12 @@ const topListChildButton = (text) => {
 };
 
 // create clear function for the maincontainer
-function clearBox() {
-  console.log('CLEAR');
+const clearBox = () => {
   document.getElementById('id').innerHTML = '';
-}
+};
 
 // Create the header part
-function CreateHeader() {
-  console.log('HEADER');
+const CreateHeader = () => {
   // home link button
   const buttonItem = topListChildButton('Home');
   buttonItem.className = 'btn text-white orange-color';
@@ -48,17 +46,16 @@ function CreateHeader() {
   liItem2.className = 'header-li';
   liItem2.appendChild(buttonItem2);
   header.appendChild(liItem2);
-}
+};
 
 // Create the footer
-function CreateFooter() {
-  console.log('FOOTER');
+const CreateFooter = () => {
   const footer = document.createElement('footer');
   const footerText = document.createElement('h4');
   footerText.innerHTML = 'Made by Igor';
   footer.appendChild(footerText);
   mainContainer.appendChild(footer);
-}
+};
 CreateHeader();
 loadHomePage();
 CreateFooter();
