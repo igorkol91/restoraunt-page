@@ -1,6 +1,7 @@
 # Restaurant
 
-> The repo contains my javascript code for the restoraunt page.
+> The repo contains my javascript code for the restoraunt page. 
+> The idea was to make a simple page with only javascript for appending elements.
 
 ## Built With
 
